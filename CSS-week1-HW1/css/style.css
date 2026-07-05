@@ -18,6 +18,12 @@ header{
 nav{
     background-color: #3498db;
     padding: 15px;
+    display: inline-block;
+    width: 80%;
+}
+
+nav img{
+    width: 10%;
 }
 
 /* Main */
@@ -51,4 +57,24 @@ h1{
 /* Paragraph */
 p{
     line-height: 1.6;
+}
+
+/* Grid */
+.grid{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-around;
+    align-items: start;
+    row-gap: 20px;
+}
+
+.grid img{
+    width: 100%;
+}
+
+/* Flex */
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
